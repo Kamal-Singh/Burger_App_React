@@ -23,7 +23,6 @@ class Layout extends React.Component {
           open={this.state.showSideDrawer}
           closed={this.sideDrawerClosedHandler}
         />
-        <div>Toolbar, SideDrawer, BackDrop</div>
         <main className={classes.Content}>{this.props.children}</main>
       </React.Fragment>
     );
